@@ -1,0 +1,46 @@
+{
+  "name": "vanilla-brochure-theme",
+  "version": "0.0.1",
+  "description": "Vanilla theme for Brochure websites",
+  "keywords": [
+    "vanilla",
+    "framework",
+    "brochure",
+    "style guide",
+    "theme"
+  ],
+  "bugs": {
+    "url" : "http://github.com/ubuntudesign/vanilla-brochure-theme/issues",
+    "email": "webteam@canonical.com"
+  },
+  "license" : "LGPL-3.0",
+  "scripts": {
+    "clean": "rm -r build; rm -r node_modules"
+  },
+  "repository": {
+  "type" : "git",
+  "url" : "http://github.com/ubuntudesign/vanilla-brochure-theme"
+  },
+  "devDependencies": {
+    "es6-promise": "^4.0.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-cache": "0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-notify": "2.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sass-lint": "1.3.2",
+    "gulp-util": "^3.0.7",
+    "vanilla-framework": "^1.1.3",
+    "wrench": "^1.5.9"
+  },
+  "dependencies": {
+   "browser-sync": "^2.18.6",
+   "gulp-concat": "^2.6.1",
+   "gulp-sourcemaps": "^2.4.0",
+   "gulp-util": "^3.0.8"
+ }
+}
