@@ -8,7 +8,7 @@
   [class*='p-list'] {
     &.is-split {
 
-      @include on-tablet-up {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         flex-wrap: wrap;
 
