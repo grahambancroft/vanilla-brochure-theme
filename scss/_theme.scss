@@ -1,20 +1,19 @@
 // Import Vanilla framework
-@import 'vanilla-framework/scss/build';
+@import
+'vanilla-framework/scss/build';
 
 // Import theme settings
-@import 'settings';
+@import
+'settings';
 
-// Import Base files, if needed
-
-// Import Pattern files, if needed
-
-// Import Util files, if needed
+// Import theme pattern files
+@import
+'patterns_lists',
+'patterns_media-object';
 
 @mixin vanilla-brochure-theme {
 
-  //  Include Base mixins, if needed
-
-  //  Include Pattern mixins, if needed
-
-  // Include Util mixins, if needed
+  //  Include theme pattern mixins
+  @include theme-p-lists;
+  @include theme-p-media-object;
 }

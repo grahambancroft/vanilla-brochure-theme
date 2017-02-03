@@ -1,10 +1,10 @@
 // Brochure themes list styling
-@mixin bt-p-lists {
-  @include bt-p-list--split;
+@mixin theme-p-lists {
+  @include theme-p-list--split;
 }
 
 // Adaptor class `is-split` to split the items of a list into two columns
-@mixin bt-p-list--split {
+@mixin theme-p-list--split {
   [class*='p-list'] {
     &.is-split {
 
