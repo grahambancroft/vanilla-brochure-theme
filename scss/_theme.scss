@@ -6,22 +6,14 @@
 @import
 'settings';
 
-// Import theme base files
-
 // Import theme pattern files
 @import
 'patterns_lists',
 'patterns_media-object';
 
-// Import theme util files
-
 @mixin vanilla-brochure-theme {
 
-  //  Include theme base mixins
-
   //  Include theme pattern mixins
-  @include bt-p-lists;
-  @include bt-p-media-object
-  ;
-  // Include theme util mixins
+  @include theme-p-lists;
+  @include theme-p-media-object;
 }
