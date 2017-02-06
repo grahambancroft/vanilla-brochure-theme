@@ -2,6 +2,10 @@
 @import
 'vanilla-framework/scss/build';
 
+// Global Sass functions
+@import
+'global_functions';
+
 // Import theme settings
 @import
 'settings';
@@ -9,11 +13,13 @@
 // Import theme pattern files
 @import
 'patterns_lists',
-'patterns_media-object';
+'patterns_media-object',
+'patterns_strip';
 
 @mixin vanilla-brochure-theme {
 
   //  Include theme pattern mixins
   @include theme-p-lists;
   @include theme-p-media-object;
+  @include theme-p-strip;
 }

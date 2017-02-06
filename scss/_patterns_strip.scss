@@ -1,0 +1,8 @@
+@mixin theme-p-strip {
+
+  .p-strip--accent {
+    @extend %strip;
+    background-color: $color-accent;
+    color: determine-text-color($color-accent);
+  }
+}
