@@ -3,11 +3,6 @@ collection: patterns
 title: Media object
 ---
 
-The purpose of the media object pattern to display information, about items
-such as blog posts, events, etc.
-
-A media object will expand to fill the full width of its parent container.
-
 <div class="p-media-object col-6">
   <img src="http://placehold.it/72x72" class="p-media-object__image">
   <div class="p-media-object__details">
