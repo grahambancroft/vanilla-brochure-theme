@@ -10,17 +10,17 @@ gulp build
 ```
 ## Vanilla brochure theme local development
 
-To develop on Vanilla itself, simply pull down the project and make changes.
+To develop on Vanilla brochure theme itself, simply pull down the project and make changes.
 
-To test it locally using our recommended tooling, you need to first install dependencies:
+To test it locally using our recommended tooling, you need to first install dependencies.
 
-You need to have bundler installed
+You need to have bundler installed:
 
 ``` bash
 gem install bundler
 ```
 
-You need to have node and npm. To install follow the [installation instructions](https://docs.npmjs.com/getting-started/installing-node) on this page.
+You need to have node and npm. To install, follow the [NPM installation instructions](https://docs.npmjs.com/getting-started/installing-node).
 
 ``` bash
 bundle install
