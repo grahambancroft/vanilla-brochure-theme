@@ -18,6 +18,16 @@
         bottom: 0;
         position: absolute;
       }
+
+      &--left {
+        left: 0;
+        position: absolute;
+      }
+
+      &--right {
+        position: absolute;
+        right: 0;
+      }
     }
   }
 }
