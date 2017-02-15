@@ -7,7 +7,7 @@
 @mixin theme-p-list--split {
 
   [class*='p-list'] {
-    
+
     &.is-split {
 
       @media (min-width: $breakpoint-medium) {

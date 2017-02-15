@@ -12,6 +12,7 @@
 
 // Import theme pattern files
 @import
+'patterns_card',
 'patterns_lists',
 'patterns_media-object',
 'patterns_strip',
@@ -26,6 +27,7 @@
 @mixin vanilla-brochure-theme {
 
   //  Include theme pattern mixins
+  @include theme-p-card;
   @include theme-p-button;
   @include theme-p-lists;
   @include theme-p-media-object;
