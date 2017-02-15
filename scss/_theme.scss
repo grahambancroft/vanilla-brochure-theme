@@ -17,6 +17,10 @@
 'patterns_strip',
 'patterns_divider';
 
+// Import theme utility files
+@import
+'utilities_image-position';
+
 @mixin vanilla-brochure-theme {
 
   //  Include theme pattern mixins
@@ -24,4 +28,8 @@
   @include theme-p-media-object;
   @include theme-p-strip;
   @include theme-p-divider;
+
+  //  Include theme utility mixins
+  @include theme-u-image-position;
+
 }
