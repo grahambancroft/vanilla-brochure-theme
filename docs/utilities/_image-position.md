@@ -3,8 +3,8 @@ collection: utilities
 title: Image position
 ---
 
-Image position is a utility to position an image to the top or bottom of a
-parent container. In most cases it would be a strip.
+Image position is a utility to position an image within a parent container. In
+most cases it would be a strip. This only effects medium and large screen sizes.
 
 ## Position bottom
 
