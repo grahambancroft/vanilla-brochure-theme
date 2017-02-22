@@ -18,6 +18,7 @@
 'patterns_strip',
 'patterns_heading-icon',
 'patterns_buttons',
+'patterns_stepped-lists',
 'patterns_divider';
 
 // Import theme utility files
@@ -33,8 +34,5 @@
   @include theme-p-media-object;
   @include theme-p-strip;
   @include theme-p-divider;
-  @include theme-p-heading-icon;
-
-  //  Include theme utility mixins
-  @include theme-u-image-position;
+  @include theme-p-stepped-list;
 }
