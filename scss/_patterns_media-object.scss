@@ -1,15 +1,20 @@
 // Brochure themes media-object styling
 @mixin theme-p-media-object {
+
   .p-media-object {
     display: flex;
 
     &__image {
       border-radius: 4px;
-      height: 72px;
+      height: 3.75rem;
       margin-right: 1rem;
-      margin-top: 5px;
       vertical-align: middle;
-      width: 72px;
+      width: 3.75rem;
+
+      @media (min-width: $breakpoint-medium) {
+        height: 4.5rem;
+        width: 4.5rem;
+      }
     }
 
     &__title {

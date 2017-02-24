@@ -4,7 +4,7 @@
 // variable.
 @function determine-text-color($background-color) {
   @if (lightness($background-color) > 50) {
-    @return $color-mid-dark;
+    @return $color-dark;
   } @else {
     @return $color-x-light;
   }

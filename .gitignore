@@ -5,3 +5,6 @@ npm-debug.log
 css/
 build/
 yarn.lock
+/_site
+/_jekyll/_site
+Gemfile.lock

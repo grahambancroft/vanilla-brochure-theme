@@ -5,7 +5,9 @@
 
 // Adaptor class `is-split` to split the items of a list into two columns
 @mixin theme-p-list--split {
+
   [class*='p-list'] {
+
     &.is-split {
 
       @media (min-width: $breakpoint-medium) {
