@@ -27,4 +27,4 @@ gulp.task('default', ['help']);
 gulp.task('develop', ['watch', 'sass:develop']);
 gulp.task('jekyll', ['watch', 'sass:develop', 'jekyll:serve']);
 gulp.task('test', ['sasslint']);
-gulp.task('build', ['sasslint', 'sass:build']);
+gulp.task('build', ['sasslint', 'sass']);

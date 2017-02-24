@@ -36,7 +36,7 @@ gulp.task('sass:develop', function() {
 });
 
 // Build Sass for production
-gulp.task('sass:build', function() {
+gulp.task('sass', function() {
   return gulp.src(sassPath)
     .pipe(sass({
       style: 'compressed',
