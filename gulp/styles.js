@@ -46,7 +46,7 @@ gulp.task('sass', function() {
       onError: throwSassError
     }))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-    .pipe(gulp.dest('build/css/'));
+    .pipe(gulp.dest('build/css/'))
     .pipe(cssnano())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('build/css/'));
