@@ -26,5 +26,5 @@ gulp.task('help', function() {
 gulp.task('default', ['help']);
 gulp.task('develop', ['watch', 'sass:develop']);
 gulp.task('jekyll', ['watch', 'sass:develop', 'jekyll:serve']);
-gulp.task('test', ['lint:sass']);
-gulp.task('build', ['lint:sass', 'sass:build']);
+gulp.task('test', ['sasslint']);
+gulp.task('build', ['sasslint', 'sass:build']);
