@@ -6,10 +6,7 @@
 @mixin theme-p-strip--accent {
 
   .p-strip--accent {
-    // XXX: Ant - Replace with @include strip;
-    // Once this issue is fixed:
-    // https://github.com/vanilla-framework/vanilla-framework/issues/961
-    @extend .p-strip;
+    @include strip;
     background-color: $color-accent;
     color: determine-text-color($color-accent);
   }
@@ -18,10 +15,7 @@
 @mixin theme-p-strip--image {
 
   .p-strip--image {
-    // XXX: Ant - Replace with @include strip;
-    // Once this issue is fixed:
-    // https://github.com/vanilla-framework/vanilla-framework/issues/961
-    @extend .p-strip;
+    @include strip;
     background-repeat: no-repeat;
     background-size: cover;
 
