@@ -12,7 +12,7 @@
       color: $color-dark;
       padding: 1.3333rem;
 
-      @media only (min-width: $breakpoint-medium) {
+      @media (min-width: $breakpoint-medium) {
         padding: 1.25rem;
       }
     }
