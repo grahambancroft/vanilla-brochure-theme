@@ -74,3 +74,38 @@ These classes will then override the text color to ensure it remains visible.
   </div>
 </section>
 ```
+
+## Strip is-bordered
+This pattern is used to add a dividing border at the bottom of the strip.
+
+**Note** This should be used when two strips of the same type are used after each other.
+
+<section class="p-strip is-bordered">
+  <div class="row">
+    <h2>.p-strip is-bordered</h2>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-6">
+      <img src="http://placehold.it/150x150" alt="Placeholder image" />
+    </div>
+  </div>
+</section>
+
+```html
+<section class="p-strip is-bordered">
+  <div class="row">
+    <h2>.p-strip is-bordered</h2>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-6">
+      <img src="http://placehold.it/150x150" alt="Placeholder image" />
+    </div>
+  </div>
+</section>
+```
