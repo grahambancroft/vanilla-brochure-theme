@@ -1,6 +1,7 @@
 @mixin theme-p-strip {
   @include theme-p-strip--accent;
   @include theme-p-strip--image;
+  @include theme-p-strip-is-bordered;
 }
 
 @mixin theme-p-strip--accent {
@@ -26,5 +27,11 @@
     &.is-dark {
       color: $color-x-light;
     }
+  }
+}
+
+@mixin theme-p-strip-is-bordered {
+  [class^='p-strip'].is-bordered {
+    border-bottom: 1px solid $color-mid-light;
   }
 }
