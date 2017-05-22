@@ -2,7 +2,7 @@
 
 @mixin theme-u-image-position {
   .u-image-position {
-    @media only (min-width: $breakpoint-medium) {
+    @media (min-width: $breakpoint-medium) {
       position: relative;
 
       [class*='col-'] {
