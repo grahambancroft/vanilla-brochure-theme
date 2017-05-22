@@ -6,7 +6,7 @@
 @mixin theme-p-strip--accent {
 
   .p-strip--accent {
-    @extend %strip;
+    @include strip;
     background-color: $color-accent;
     color: determine-text-color($color-accent);
   }
@@ -15,7 +15,7 @@
 @mixin theme-p-strip--image {
 
   .p-strip--image {
-    @extend %strip;
+    @include strip;
     background-repeat: no-repeat;
     background-size: cover;
 
